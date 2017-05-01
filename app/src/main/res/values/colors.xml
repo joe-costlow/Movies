@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#388e3c</color>
+    <color name="colorAccent">#536DFE</color>
+
+    <color name="empty_list_item_black">@android:color/black</color>
+    <color name="rv_header">@android:color/darker_gray</color>
+    <color name="white_background">@android:color/white</color>
+
+    <color name="silver">#1ec0c0c0</color>
+</resources>

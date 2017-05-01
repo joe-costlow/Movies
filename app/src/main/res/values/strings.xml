@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <!-- Activity labels -->
+    <string name="activity_main_label_top_rated">&#160;&#45;&#160;Top Rated</string>
+    <string name="activity_main_label_most_popular">&#160;&#45;&#160;Most Popular</string>
+    <string name="activity_main_label_favorites">&#160;&#45;&#160;Favorites</string>
+
+    <!-- onSavedInstanceState text -->
+    <string name="oss_sort_order_path_key">sortOrder</string>
+    <string name="oss_main_activity_sort_label_key">mainLabelKey</string>
+    <string name="oss_loader_id_key">loaderId</string>
+
+    <!-- Shared preference key text -->
+    <string name="SHARED_PREF_SORT_KEY">sortOrder</string>
+    <string name="SHARED_PREF_LABEL_KEY">sortLabel</string>
+    <string name="SHARED_PREF_LOADER_KEY">loader</string>
+
+    <!-- MainActivity settings menu text -->
+    <string name="action_main_menu_top_rated">Top Rated</string>
+    <string name="action_main_menu_most_popular">Most Popular</string>
+    <string name="action_main_menu_favorites">Favorites</string>
+
+    <!-- poster base url text -->
+    <string name="BASE_MOVIE_POSTER_URL">http://image.tmdb.org/t/p/w185/</string>
+
+    <!-- Network Utils URL text  REMOVE AND REPLACE API KEY -->
+    <string name="BASE_URL">https://api.themoviedb.org/3/movie</string>
+    <string name="SORT_BY_TOP_RATED_PATH">top_rated</string>
+    <string name="SORT_BY_MOST_POPULAR_PATH">popular</string>
+    <string name="SORT_BY_FAVORITES_PATH">favorites</string>
+    <string name="API_KEY_KEY">api_key</string>
+    <string name="API_KEY_VALUE"></string> <!-- TODO API KEY HERE -->
+    <string name="LANGUAGE_KEY">language</string>
+    <string name="LANGUAGE_VALUE">en-US</string>
+    <string name="REQUEST_METHOD">GET</string>
+    <string name="REVIEWS_PATH">reviews</string>
+    <string name="TRAILERS_PATH">videos</string>
+
+    <!-- JSON utils strings -->
+    <string name="JsonMoviesArrayKey">results</string>
+    <string name="JsonMoviePosterPath">poster_path</string>
+    <string name="JsonMovieBackdropPath">backdrop_path</string>
+    <string name="JsonMovieOriginalTitle">original_title</string>
+    <string name="JsonMovieTitle">title</string>
+    <string name="JsonMovieReleaseDate">release_date</string>
+    <string name="JsonMovieVoteAvg">vote_average</string>
+    <string name="JsonMovieOverview">overview</string>
+    <string name="JsonMovieId">id</string>
+
+    <string name="JsonReviewAuthor">author</string>
+    <string name="JsonReviewContent">content</string>
+
+    <string name="JsonTrailerKey">key</string>
+    <string name="JsonTrailerSite">site</string>
+    <string name="JsonTrailerType">type</string>
+    <string name="JsonTrailerCompareType">Trailer</string>
+    <string name="JsonTrailerCompareSite">YouTube</string>
+
+    <!-- Trailer URL building text -->
+    <string name="BASE_TRAILER_URL">https://www.youtube.com/watch</string>
+    <string name="TRAILER_QUERY_KEY">v</string>
+    <string name="BASE_TRAILER_THUMB_URL">https://img.youtube.com/vi</string>
+    <string name="TRAILER_THUMB_SUFFIX">0.jpg</string>
+
+    <!-- LOG messages -->
+    <string name="http_error">Problem making HTTP request</string>
+    <string name="error_response_code">Error response code:</string>
+    <string name="retrieve_problem">Problem retrieving data</string>
+    <string name="parsing_problem">Problem parsing JSON data</string>
+    <string name="built_uri">Built URI:</string>
+
+    <!-- Toast messages -->
+    <string name="favorite_added">Added to Favorites</string>
+    <string name="favorite_removed">Removed from Favorites</string>
+
+    <!-- Details Activity text -->
+    <string name="movie_title_label">Title:</string>
+    <string name="movie_release_date_label">Release Date:</string>
+    <string name="movie_rating_label">Rating:</string>
+    <string name="movie_overview_label">Overview:</string>
+
+    <string name="button_text_add_favorite">Make Favorite</string>
+    <string name="button_text_remove_favorite">Remove from Favorites</string>
+
+    <!-- Reviews and Trailers headings -->
+    <string name="REVIEWS">Reviews</string>
+    <string name="TRAILERS">Trailers</string>
+
+    <!-- Main Activity to Details Activity intent extras text -->
+    <string name="intent_to_details_position_key">position</string>
+    <string name="intent_to_details_title_key">title</string>
+    <string name="intent_to_details_release_date_key">release_date</string>
+    <string name="intent_to_details_overview_key">overview</string>
+    <string name="intent_to_details_rating_key">rating</string>
+    <string name="intent_to_details_poster_key">poster</string>
+
+    <string name="intent_to_details_id_key">id</string>
+
+    <!-- Empty state for list view text -->
+    <string name="no_internet">No internet connection.</string>
+    <string name="no_favorites">No favorites added</string>
+    <string name="no_reviews">No reviews available</string>
+    <string name="no_trailers">No trailers available</string>
+</resources>
